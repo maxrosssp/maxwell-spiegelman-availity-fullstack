@@ -1,12 +1,12 @@
 import Papa from 'papaparse';
 
-const validateParentheses = (codeString = '') => {
+const validateParentheses = (str = '') => {
     let openParenthesesCount = 0;
 
-    for (var i = 0; i < codeString.length; i++) {
-        if (codeString[i] === '(') {
+    for (var i = 0; i < str.length; i++) {
+        if (str[i] === '(') {
             openParenthesesCount += 1;
-        } else if (codeString[i] === ')') {
+        } else if (str[i] === ')') {
             openParenthesesCount -= 1;
             
             if (openParenthesesCount < 0) {
