@@ -1,0 +1,58 @@
+#sidebar {
+    background-color: #f7f7f7;
+    border-right: 1px solid #ececec;
+    z-index: 1000;
+    padding: 0px;
+
+    .nav-link {
+        color: rgba(26,26,26,.75);
+    }
+
+    .nav-link:hover {
+        color: rgba(25, 25, 25, 0.5);
+    }
+
+    .nav-link.active {
+        background-color: #cbcbcb;
+    }
+
+    .nav-home {
+        padding: 16px;
+    }
+
+    .dropdown-divider {
+        margin: 0px;
+    }
+}
+
+#page-content {
+    padding: 32px 64px;
+    overflow: scroll; 
+
+    .page-heading {
+        padding-bottom: 30px;
+
+        .title {
+            padding-bottom: 15px;
+        }
+
+        .question {
+            font-style: italic;
+
+            .question-text {
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+.answer-content {
+    padding: 25px;
+
+    form,
+    p {
+        padding: 30px;
+        border: solid #f7f7f9;
+        border-width: 3px;
+    }
+}

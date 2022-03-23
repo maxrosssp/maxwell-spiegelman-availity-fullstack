@@ -1,0 +1,43 @@
+{
+  "name": "maxwell-spiegelman-availity-fullstack",
+  "version": "1.0.0",
+  "description": "Maxwell Spiegelman's fullstack homework assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxrosssp/maxwell-spiegelman-availity-fullstack.git"
+  },
+  "author": "Maxwell Spiegelman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxrosssp/maxwell-spiegelman-availity-fullstack/issues"
+  },
+  "homepage": "https://github.com/maxrosssp/maxwell-spiegelman-availity-fullstack#readme",
+  "dependencies": {
+    "@react-pdf-viewer/core": "^3.1.2",
+    "bootstrap": "^5.1.3",
+    "papaparse": "^5.3.2",
+    "pdfjs-dist": "^2.13.216",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.2.1",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
