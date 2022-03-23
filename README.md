@@ -10,6 +10,7 @@ Clone this package and navigate into its directory. Then run:
 npm install
 npm start
 ```
+Your browser should automatically open with to a page with the app running. If not, look for the "Loopback" url in the console output, and manually navigate there in your browser. It should be `http://localhost:8080/`, if you don't already have something running on that port.
 
 ## Answers
 
