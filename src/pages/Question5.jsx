@@ -75,7 +75,7 @@ const Question5 = () => {
                             label="First name" 
                             value={data.firstName} 
                             onInputChange={onInputChange} 
-                            isRequired={true} 
+                            isRequired 
                         />
 
                         <FormInput 
@@ -85,7 +85,7 @@ const Question5 = () => {
                             label="Last name" 
                             value={data.lastName} 
                             onInputChange={onInputChange} 
-                            isRequired={true} 
+                            isRequired
                         />
 
                         <FormInput
@@ -97,7 +97,8 @@ const Question5 = () => {
                             onInputChange={onInputChange}
                             minLength={10}
                             maxLength={10}
-                            isRequired={true} invalidText="Must be 10 digit number." 
+                            isRequired 
+                            invalidText="Must be 10 digit number." 
                         />
                     </Row>
 
@@ -109,7 +110,7 @@ const Question5 = () => {
                             label="Address Line 1"
                             value={data.addressLine1}
                             onInputChange={onInputChange}
-                            isRequired={true} 
+                            isRequired
                         />
                     </Row>
 
@@ -121,7 +122,6 @@ const Question5 = () => {
                             label="Address Line 2"
                             value={data.addressLine2}
                             onInputChange={onInputChange}
-                            isRequired={true} 
                         />
                     </Row>
 
@@ -133,7 +133,7 @@ const Question5 = () => {
                             label="City"
                             value={data.city}
                             onInputChange={onInputChange}
-                            isRequired={true} 
+                            isRequired 
                         />
 
                         <Form.Group as={Col} md="3" controlId="state">
@@ -151,7 +151,7 @@ const Question5 = () => {
                             onInputChange={onInputChange}
                             minLength={5}
                             maxLength={5}
-                            isRequired={true} 
+                            isRequired
                         />
                     </Row>
 
@@ -163,7 +163,7 @@ const Question5 = () => {
                             label="Phone number"
                             value={data.phone}
                             onInputChange={onInputChange} type="tel" inputMode="tel"
-                            isRequired={true} 
+                            isRequired
                         />
                         
                         <FormInput
@@ -173,7 +173,7 @@ const Question5 = () => {
                             label="Email address"
                             value={data.email}
                             onInputChange={onInputChange} type="email" inputMode="email"
-                            isRequired={true} 
+                            isRequired 
                         />
                     </Row>
 
